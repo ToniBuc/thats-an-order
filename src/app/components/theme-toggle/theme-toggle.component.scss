@@ -1,0 +1,15 @@
+.toggle-btn-container {
+    button {
+      cursor: pointer;
+    }
+
+    .light {
+        background: white;
+    }
+    
+    .dark {
+        background: black;
+        color: white;
+    }
+
+}

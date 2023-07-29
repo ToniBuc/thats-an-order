@@ -1,0 +1,17 @@
+.header-wrapper {
+    display: inline-flex;
+    height: 70px;
+    width: 100%;
+
+    .logo-container {
+        width: 50%;
+        .logo {
+            height: 70px;
+        }
+    }
+    
+    .theme-toggle-container {
+        width: 50%;
+        text-align: right;
+    }
+}
