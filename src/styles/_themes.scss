@@ -1,20 +1,25 @@
 $bgColor_light: white;
-$bgColor_dark: black;
+$bgColor_dark: #121212;
 
-$textColor_light: black;
+$bgAltColor_light: white;
+$bgAltColor_dark: rgb(50,50,50);
+
+$textColor_light: #121212;
 $textColor_dark: white;
 
-$borderColor_light: black;
+$borderColor_light: #121212;
 $borderColor_dark: white;
 
 @mixin light() {
     --bgColor: #{$bgColor_light};
+    --bgAltColor: #{$bgAltColor_light};
     --textColor: #{$textColor_light};
     --borderColor: #{$borderColor_light};
 }
 
 @mixin dark() {
     --bgColor: #{$bgColor_dark};
+    --bgAltColor: #{$bgAltColor_dark};
     --textColor: #{$textColor_dark};
     --borderColor: #{$borderColor_dark};
 }

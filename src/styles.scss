@@ -2,7 +2,12 @@
 @import "./styles/themes";
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: var(--bgColor);
+    color: var(--textColor);
+}
 
 body.light {
     @include light();
@@ -10,14 +15,4 @@ body.light {
 
 body.dark {
     @include dark();
-}
-  
-main {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: var(--bgColor);
-    color: var(--textColor);
 }
